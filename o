@@ -1,0 +1,13 @@
+echo "# flutter_chat_app" >> README.md
+git init
+git add README.md
+
+git branch -M main
+git add .
+git remote add origin https://github.com/alicezuberg930/DiscordMusicBot.git
+git commit -m "first commit"
+git push -u origin main
+
+git remote add origin https://github.com/alicezuberg930/flutter_chat_app.git
+git branch -M main
+git push -u origin main
